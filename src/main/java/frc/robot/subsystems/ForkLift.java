@@ -12,7 +12,7 @@ import com.revrobotics.spark.*;
 
 public class ForkLift extends SubsystemBase {
 
-    private final SparkMax forkliftMotor = new SparkMax(5, MotorType.kBrushless);
+    private final SparkMax forkliftMotor = new SparkMax(5, MotorType.kBrushed);
 
 
     public void setForkliftSpeed(double speed) {
