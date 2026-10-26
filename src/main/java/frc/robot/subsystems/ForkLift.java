@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class ForkLift extends SubsystemBase {
 
-    private final SparkMax forkliftMotor = new SparkMax(5, MotorType.kBrushless);
+    private final SparkMax forkliftMotor = new SparkMax(5, MotorType.kBrushed);
 
     public void setForkliftSpeed(double speed) {
         forkliftMotor.set(speed);
